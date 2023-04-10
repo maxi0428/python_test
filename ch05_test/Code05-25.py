@@ -39,7 +39,7 @@ paper = PhotoImage(width = XSIZE, height = YSIZE)
 canvas.create_image((XSIZE/2, YSIZE/2), image = paper, state = "normal")
 
 # 파일 --> 메모리
-filename = 'RAW/tree.raw'  # C:/CookAnalysis/RAW/tree.raw
+filename = 'RAW/cat256.raw'  # C:/CookAnalysis/RAW/tree.raw
 loadImage(filename)
 
 # 메모리 --> 화면 
