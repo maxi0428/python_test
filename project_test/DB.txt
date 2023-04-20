@@ -1,0 +1,15 @@
+
+create database melon;
+
+use melon;
+
+CREATE TABLE top100 (
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    s_rank INT(11) NOT NULL,
+    album VARCHAR(100) NOT NULL,
+    title VARCHAR(100) NOT NULL,
+    artist VARCHAR(100) NOT NULL,
+    img_url VARCHAR(200) NOT NULL
+);
+
+select * from top100;
